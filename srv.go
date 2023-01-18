@@ -9,7 +9,6 @@ import (
 )
 
 const (
-	// config
 	_servBase       = "/var/squid/reports"
 	_servPreview    = "/var/squid/reports/www"
 	_servTLS        = _servBase + "/tls"
