@@ -4,10 +4,10 @@ go 1.19
 
 require (
 	mvdan.cc/xurls/v2 v2.4.0
-	paepcke.de/dnsinfo v0.1.24
-	paepcke.de/dnsresolver v0.1.5
-	paepcke.de/reportstyle v0.1.7
-	paepcke.de/tlsinfo v0.1.17
+	paepcke.de/dnsinfo v0.1.25
+	paepcke.de/dnsresolver v0.1.6
+	paepcke.de/reportstyle v0.1.8
+	paepcke.de/tlsinfo v0.1.18
 )
 
 require (
@@ -21,5 +21,5 @@ require (
 	golang.org/x/text v0.6.0 // indirect
 	golang.org/x/tools v0.1.12 // indirect
 	k8s.io/klog/v2 v2.80.1 // indirect
-	paepcke.de/certinfo v0.1.17 // indirect
+	paepcke.de/certinfo v0.1.19 // indirect
 )
