@@ -1,0 +1,178 @@
+<html><title>[squidr][report][url]</title><pre>
+[ -= SQUIDR DNS REPORT =- ]
+Report Timestamp: 1671954274847374263
+Report Created  : 2022-12-25T07:44:34Z
+Target DNS      : cnn.com
+
+DNS Environment State Summary Report
+
+[Resolver:127.0.0.53:53] [DoT:false]
+DNS A	cnn.com.	86187	IN	A	151.101.67.5
+DNS A	cnn.com.	86187	IN	A	151.101.195.5
+DNS A	cnn.com.	86187	IN	A	151.101.131.5
+DNS A	cnn.com.	86187	IN	A	151.101.3.5
+DNS MX	cnn.com.	86210	IN	MX	10 mxb-00241e02.gslb.pphosted.com.
+DNS MX	cnn.com.	86210	IN	MX	10 mxa-00241e02.gslb.pphosted.com.
+DNS NS	cnn.com.	86208	IN	NS	ns-576.awsdns-08.net.
+DNS NS	cnn.com.	86208	IN	NS	ns-1086.awsdns-07.org.
+DNS NS	cnn.com.	86208	IN	NS	ns-1630.awsdns-11.co.uk.
+DNS NS	cnn.com.	86208	IN	NS	ns-47.awsdns-05.com.
+DNS SOA	cnn.com.	86195	IN	SOA	ns-47.awsdns-05.com. awsdns-hostmaster.amazon.com. 1 7200 900 1209600 86400
+FAIL RRSIG lookup failed : 127.0.0.53:53	udp4	read udp4 127.0.0.80:43930->127.0.0.53:53: i/o timeout
+
+[Resolver:8.8.8.8:853] [DoT:true] [KeyPin:TXV9bLOi7Bt/vB9N8l1yGWokU85gKfaiLtYaV+zWkQM=]
+FAIL DNS Resolver Connect:  lookup failed : 8.8.8.8:853	tcp-tls	[dnsinfo] [tls keypin verification failed] google
+
+[Resolver:1.1.1.1:853] [DoT:true] [KeyPin:MnLdGiqUGYhtyinlrGTC4FZdDyDXv4NOWFGnXW3ur14=]
+DNS A	cnn.com.	59	IN	A	151.101.195.5
+DNS A	cnn.com.	59	IN	A	151.101.67.5
+DNS A	cnn.com.	59	IN	A	151.101.131.5
+DNS A	cnn.com.	59	IN	A	151.101.3.5
+DNS AAAA	cnn.com.	170	IN	AAAA	2a04:4e42:e00::773
+DNS AAAA	cnn.com.	170	IN	AAAA	2a04:4e42::773
+DNS AAAA	cnn.com.	170	IN	AAAA	2a04:4e42:a00::773
+DNS AAAA	cnn.com.	170	IN	AAAA	2a04:4e42:800::773
+DNS AAAA	cnn.com.	170	IN	AAAA	2a04:4e42:400::773
+DNS AAAA	cnn.com.	170	IN	AAAA	2a04:4e42:200::773
+DNS AAAA	cnn.com.	170	IN	AAAA	2a04:4e42:c00::773
+DNS AAAA	cnn.com.	170	IN	AAAA	2a04:4e42:600::773
+DNS MX	cnn.com.	300	IN	MX	10 mxa-00241e02.gslb.pphosted.com.
+DNS MX	cnn.com.	300	IN	MX	10 mxb-00241e02.gslb.pphosted.com.
+DNS NS	cnn.com.	3600	IN	NS	ns-1086.awsdns-07.org.
+DNS NS	cnn.com.	3600	IN	NS	ns-1630.awsdns-11.co.uk.
+DNS NS	cnn.com.	3600	IN	NS	ns-47.awsdns-05.com.
+DNS NS	cnn.com.	3600	IN	NS	ns-576.awsdns-08.net.
+DNS SOA	cnn.com.	900	IN	SOA	ns-47.awsdns-05.com. awsdns-hostmaster.amazon.com. 1 7200 900 1209600 86400
+DNS TXT	cnn.com.	300	IN	TXT	"126953328-4422040"
+DNS TXT	cnn.com.	300	IN	TXT	"133461244-4422058"
+DNS TXT	cnn.com.	300	IN	TXT	"178953534-4422001"
+DNS TXT	cnn.com.	300	IN	TXT	"186844776-4422028"
+DNS TXT	cnn.com.	300	IN	TXT	"228426766-4422034"
+DNS TXT	cnn.com.	300	IN	TXT	"267933795-4422004"
+DNS TXT	cnn.com.	300	IN	TXT	"287893558-4422013"
+DNS TXT	cnn.com.	300	IN	TXT	"294913881-4422049"
+DNS TXT	cnn.com.	300	IN	TXT	"299762315-4422055"
+DNS TXT	cnn.com.	300	IN	TXT	"2baPGrmeo+RwsWdIdq/gIVSEWNb4tC9mLGQu0j4l/mduqhm06T+V9vNLXsauLyH9FwMZJSRHvj/YHGKOVWRylw=="
+DNS TXT	cnn.com.	300	IN	TXT	"321159687-4422031"
+DNS TXT	cnn.com.	300	IN	TXT	"349997471-4422043"
+DNS TXT	cnn.com.	300	IN	TXT	"353665828-4422052"
+DNS TXT	cnn.com.	300	IN	TXT	"528183251-4422019"
+DNS TXT	cnn.com.	300	IN	TXT	"553992719-4400647"
+DNS TXT	cnn.com.	300	IN	TXT	"598362927-4422061"
+DNS TXT	cnn.com.	300	IN	TXT	"667921863-4422007"
+DNS TXT	cnn.com.	300	IN	TXT	"688162515-4422037"
+DNS TXT	cnn.com.	300	IN	TXT	"691244352-4422022"
+DNS TXT	cnn.com.	300	IN	TXT	"714321471-4421998"
+DNS TXT	cnn.com.	300	IN	TXT	"754516718-4422064"
+DNS TXT	cnn.com.	300	IN	TXT	"755973593-4422016"
+DNS TXT	cnn.com.	300	IN	TXT	"764482256-4422025"
+DNS TXT	cnn.com.	300	IN	TXT	"782989862-4417942"
+DNS TXT	cnn.com.	300	IN	TXT	"826218936-4422046"
+DNS TXT	cnn.com.	300	IN	TXT	"882269757-4422010"
+DNS TXT	cnn.com.	300	IN	TXT	"A31FDD3B64766559ABF7A051ACC212162937094EC3C8AE43906CACE45F9F71DD"
+DNS TXT	cnn.com.	300	IN	TXT	"MS=ms66433104"
+DNS TXT	cnn.com.	300	IN	TXT	"_globalsign-domain-verification=-lBuNJDFRxDkLkNbYOLBU03PlWjnPqAzBPAVUokhAw"
+DNS TXT	cnn.com.	300	IN	TXT	"_globalsign-domain-verification=2lybn8Z2GKCTHNehPEREKdz_jh5SahShpwOeRqCWjl"
+DNS TXT	cnn.com.	300	IN	TXT	"_globalsign-domain-verification=5ckEJ4VIhQ6weCdCfmfzQPVP6ED1LtCX9jw1OKX5Mv"
+DNS TXT	cnn.com.	300	IN	TXT	"_globalsign-domain-verification=B57sRQpmte4G4w-gavZbVNmmNsMxGp5kcL19UP2599"
+DNS TXT	cnn.com.	300	IN	TXT	"_globalsign-domain-verification=MK_ZKmss4D_DdzGOsssHxxBOK6hJc6LGycFvNOESdZ"
+DNS TXT	cnn.com.	300	IN	TXT	"_globalsign-domain-verification=S6DssfjyL_2kgK4I2Ae_1cdPfwqRRBfB9-3ZhRGMRj"
+DNS TXT	cnn.com.	300	IN	TXT	"_globalsign-domain-verification=yTw3T3KnyIyTB1xG2GvVhl1zWJlFp-WqmNskdVI_65"
+DNS TXT	cnn.com.	300	IN	TXT	"adobe-idp-site-verification=279ead95-3581-42b7-82f4-73c97f8cebfa"
+DNS TXT	cnn.com.	300	IN	TXT	"adobe-sign-verification=c3dc3217f76deddcb413a23e4e665fad"
+DNS TXT	cnn.com.	300	IN	TXT	"cisco-ci-domain-verification=4a1c92ef69fe42f8125c3ca9ce0696dcf6cc16fa80243257de578af593d19548"
+DNS TXT	cnn.com.	300	IN	TXT	"d1xTs9+kADZZSz3bPphLpkMXXxBGjqn5vsQHhi2M6lo0r8AdIbm6j8LfQXPujsywVgeGSP+AXWX0vO9Iep5cUg=="
+DNS TXT	cnn.com.	300	IN	TXT	"docker-verification=a52116df-9594-4fa7-9014-9ca97671064d"
+DNS TXT	cnn.com.	300	IN	TXT	"facebook-domain-verification=xszi21kow2trmw3xt3ph6s631zyu3i"
+DNS TXT	cnn.com.	300	IN	TXT	"globalsign-domain-verification=-Q7umwx2mj164XwLa0PsoUaWe2HBhta50GjggsT98f"
+DNS TXT	cnn.com.	300	IN	TXT	"globalsign-domain-verification=2lI5pahhCu_jg_2RC5GEdolQmAa4K7rhP7_OA-lZBK"
+DNS TXT	cnn.com.	300	IN	TXT	"google-site-verification=R-Btow3Z8oU_9H1IWU4Gm4lvUQ_OVmsfxonIKhIaiPE"
+DNS TXT	cnn.com.	300	IN	TXT	"google-site-verification=_QivaXNjhXy-V1y_YqrycXdAWZi2mVrcwbXerX6THeY"
+DNS TXT	cnn.com.	300	IN	TXT	"jhr4n1j73ft7608geteojtgggt."
+DNS TXT	cnn.com.	300	IN	TXT	"mixpanel-domain-verify=612e2914-a7fb-4965-95d5-19acc02797df"
+DNS TXT	cnn.com.	300	IN	TXT	"mongodb-site-verification=mtrxHeW3jOzWtwEwnOLpeQo9NXh6Lqas"
+DNS TXT	cnn.com.	300	IN	TXT	"ms=ms97284866"
+DNS TXT	cnn.com.	300	IN	TXT	"stripe-verification=094254c9a60a6dc0c1c2a62294b81c0c3b9363d044151a3e562ffeac0a7c4157"
+DNS TXT	cnn.com.	300	IN	TXT	"stripe-verification=5535d8a3c7b3517ee3765df8bd66b8a5cf70a65c3437f5be5d3a8f0108b790ef"
+DNS TXT	cnn.com.	300	IN	TXT	"umfe3f9bni2s85tm3m666qbfal."
+DNS TXT	cnn.com.	300	IN	TXT	"v=spf1 include:cnn.com._nspf.vali.email include:%{i}._ip.%{h}._ehlo.%{d}._spf.vali.email include:mail.zendesk.com ~all"
+FAIL  lookup failed : 1.1.1.1:853	tcp-tls	SERVFAIL
+
+[Resolver:9.9.9.9:853] [DoT:true] [KeyPin:/SlsviBkb05Y/8XiKF9+CZsgCtrqPQk5bh47o0R3/Cg=]
+DNS A	cnn.com.	60	IN	A	151.101.131.5
+DNS A	cnn.com.	60	IN	A	151.101.67.5
+DNS A	cnn.com.	60	IN	A	151.101.3.5
+DNS A	cnn.com.	60	IN	A	151.101.195.5
+DNS AAAA	cnn.com.	300	IN	AAAA	2a04:4e42:400::773
+DNS AAAA	cnn.com.	300	IN	AAAA	2a04:4e42::773
+DNS AAAA	cnn.com.	300	IN	AAAA	2a04:4e42:800::773
+DNS AAAA	cnn.com.	300	IN	AAAA	2a04:4e42:600::773
+DNS AAAA	cnn.com.	300	IN	AAAA	2a04:4e42:e00::773
+DNS AAAA	cnn.com.	300	IN	AAAA	2a04:4e42:c00::773
+DNS AAAA	cnn.com.	300	IN	AAAA	2a04:4e42:200::773
+DNS AAAA	cnn.com.	300	IN	AAAA	2a04:4e42:a00::773
+DNS MX	cnn.com.	300	IN	MX	10 mxa-00241e02.gslb.pphosted.com.
+DNS MX	cnn.com.	300	IN	MX	10 mxb-00241e02.gslb.pphosted.com.
+DNS NS	cnn.com.	1630	IN	NS	ns-576.awsdns-08.net.
+DNS NS	cnn.com.	1630	IN	NS	ns-1630.awsdns-11.co.uk.
+DNS NS	cnn.com.	1630	IN	NS	ns-47.awsdns-05.com.
+DNS NS	cnn.com.	1630	IN	NS	ns-1086.awsdns-07.org.
+DNS SOA	cnn.com.	900	IN	SOA	ns-47.awsdns-05.com. awsdns-hostmaster.amazon.com. 1 7200 900 1209600 86400
+DNS TXT	cnn.com.	300	IN	TXT	"stripe-verification=5535d8a3c7b3517ee3765df8bd66b8a5cf70a65c3437f5be5d3a8f0108b790ef"
+DNS TXT	cnn.com.	300	IN	TXT	"598362927-4422061"
+DNS TXT	cnn.com.	300	IN	TXT	"google-site-verification=R-Btow3Z8oU_9H1IWU4Gm4lvUQ_OVmsfxonIKhIaiPE"
+DNS TXT	cnn.com.	300	IN	TXT	"_globalsign-domain-verification=S6DssfjyL_2kgK4I2Ae_1cdPfwqRRBfB9-3ZhRGMRj"
+DNS TXT	cnn.com.	300	IN	TXT	"A31FDD3B64766559ABF7A051ACC212162937094EC3C8AE43906CACE45F9F71DD"
+DNS TXT	cnn.com.	300	IN	TXT	"v=spf1 include:cnn.com._nspf.vali.email include:%{i}._ip.%{h}._ehlo.%{d}._spf.vali.email include:mail.zendesk.com ~all"
+DNS TXT	cnn.com.	300	IN	TXT	"_globalsign-domain-verification=2lybn8Z2GKCTHNehPEREKdz_jh5SahShpwOeRqCWjl"
+DNS TXT	cnn.com.	300	IN	TXT	"_globalsign-domain-verification=MK_ZKmss4D_DdzGOsssHxxBOK6hJc6LGycFvNOESdZ"
+DNS TXT	cnn.com.	300	IN	TXT	"cisco-ci-domain-verification=4a1c92ef69fe42f8125c3ca9ce0696dcf6cc16fa80243257de578af593d19548"
+DNS TXT	cnn.com.	300	IN	TXT	"764482256-4422025"
+DNS TXT	cnn.com.	300	IN	TXT	"353665828-4422052"
+DNS TXT	cnn.com.	300	IN	TXT	"globalsign-domain-verification=-Q7umwx2mj164XwLa0PsoUaWe2HBhta50GjggsT98f"
+DNS TXT	cnn.com.	300	IN	TXT	"mongodb-site-verification=mtrxHeW3jOzWtwEwnOLpeQo9NXh6Lqas"
+DNS TXT	cnn.com.	300	IN	TXT	"688162515-4422037"
+DNS TXT	cnn.com.	300	IN	TXT	"528183251-4422019"
+DNS TXT	cnn.com.	300	IN	TXT	"267933795-4422004"
+DNS TXT	cnn.com.	300	IN	TXT	"299762315-4422055"
+DNS TXT	cnn.com.	300	IN	TXT	"133461244-4422058"
+DNS TXT	cnn.com.	300	IN	TXT	"_globalsign-domain-verification=-lBuNJDFRxDkLkNbYOLBU03PlWjnPqAzBPAVUokhAw"
+DNS TXT	cnn.com.	300	IN	TXT	"_globalsign-domain-verification=5ckEJ4VIhQ6weCdCfmfzQPVP6ED1LtCX9jw1OKX5Mv"
+DNS TXT	cnn.com.	300	IN	TXT	"docker-verification=a52116df-9594-4fa7-9014-9ca97671064d"
+DNS TXT	cnn.com.	300	IN	TXT	"_globalsign-domain-verification=yTw3T3KnyIyTB1xG2GvVhl1zWJlFp-WqmNskdVI_65"
+DNS TXT	cnn.com.	300	IN	TXT	"umfe3f9bni2s85tm3m666qbfal."
+DNS TXT	cnn.com.	300	IN	TXT	"186844776-4422028"
+DNS TXT	cnn.com.	300	IN	TXT	"349997471-4422043"
+DNS TXT	cnn.com.	300	IN	TXT	"facebook-domain-verification=xszi21kow2trmw3xt3ph6s631zyu3i"
+DNS TXT	cnn.com.	300	IN	TXT	"782989862-4417942"
+DNS TXT	cnn.com.	300	IN	TXT	"adobe-sign-verification=c3dc3217f76deddcb413a23e4e665fad"
+DNS TXT	cnn.com.	300	IN	TXT	"714321471-4421998"
+DNS TXT	cnn.com.	300	IN	TXT	"126953328-4422040"
+DNS TXT	cnn.com.	300	IN	TXT	"691244352-4422022"
+DNS TXT	cnn.com.	300	IN	TXT	"882269757-4422010"
+DNS TXT	cnn.com.	300	IN	TXT	"stripe-verification=094254c9a60a6dc0c1c2a62294b81c0c3b9363d044151a3e562ffeac0a7c4157"
+DNS TXT	cnn.com.	300	IN	TXT	"321159687-4422031"
+DNS TXT	cnn.com.	300	IN	TXT	"287893558-4422013"
+DNS TXT	cnn.com.	300	IN	TXT	"228426766-4422034"
+DNS TXT	cnn.com.	300	IN	TXT	"_globalsign-domain-verification=B57sRQpmte4G4w-gavZbVNmmNsMxGp5kcL19UP2599"
+DNS TXT	cnn.com.	300	IN	TXT	"667921863-4422007"
+DNS TXT	cnn.com.	300	IN	TXT	"294913881-4422049"
+DNS TXT	cnn.com.	300	IN	TXT	"553992719-4400647"
+DNS TXT	cnn.com.	300	IN	TXT	"jhr4n1j73ft7608geteojtgggt."
+DNS TXT	cnn.com.	300	IN	TXT	"755973593-4422016"
+DNS TXT	cnn.com.	300	IN	TXT	"google-site-verification=_QivaXNjhXy-V1y_YqrycXdAWZi2mVrcwbXerX6THeY"
+DNS TXT	cnn.com.	300	IN	TXT	"826218936-4422046"
+DNS TXT	cnn.com.	300	IN	TXT	"2baPGrmeo+RwsWdIdq/gIVSEWNb4tC9mLGQu0j4l/mduqhm06T+V9vNLXsauLyH9FwMZJSRHvj/YHGKOVWRylw=="
+DNS TXT	cnn.com.	300	IN	TXT	"adobe-idp-site-verification=279ead95-3581-42b7-82f4-73c97f8cebfa"
+DNS TXT	cnn.com.	300	IN	TXT	"178953534-4422001"
+DNS TXT	cnn.com.	300	IN	TXT	"globalsign-domain-verification=2lI5pahhCu_jg_2RC5GEdolQmAa4K7rhP7_OA-lZBK"
+DNS TXT	cnn.com.	300	IN	TXT	"754516718-4422064"
+DNS TXT	cnn.com.	300	IN	TXT	"mixpanel-domain-verify=612e2914-a7fb-4965-95d5-19acc02797df"
+DNS TXT	cnn.com.	300	IN	TXT	"ms=ms97284866"
+DNS TXT	cnn.com.	300	IN	TXT	"MS=ms66433104"
+DNS TXT	cnn.com.	300	IN	TXT	"d1xTs9+kADZZSz3bPphLpkMXXxBGjqn5vsQHhi2M6lo0r8AdIbm6j8LfQXPujsywVgeGSP+AXWX0vO9Iep5cUg=="
+FAIL  lookup failed : 9.9.9.9:853	tcp-tls	SERVFAIL
+FAIL  lookup failed : 9.9.9.9:853	tcp-tls	SERVFAIL
+
+
+</pre></html>
