@@ -1,6 +1,6 @@
 module paepcke.de/squidr
 
-go 1.21
+go 1.19
 
 require (
 	mvdan.cc/xurls/v2 v2.4.0
