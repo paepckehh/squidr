@@ -21,12 +21,12 @@ func init() {
 	}
 }
 
-// squid mitm instance rootCA trust
+// add here your squid mitm instance rootCA trust
 //
 //go:embed certstore/rootCA.pem
 var _proxyCert []byte
 
-// squid mitm mirrored external trust chain
+// add here yoyr squid mitm mirrored external trust chain
 //
 //go:embed certstore/external_trust.pem
 var _trustStoreExternal []byte
