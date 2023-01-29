@@ -37,6 +37,7 @@ const (
 	_GET     = "GET"
 	_HEAD    = "HEAD"
 	_POST    = "POST"
+	_PUT     = "PUT"
 	_PUSH    = "PUSH"
 	_PATCH   = "PATCH"
 	_DELETE  = "DELETE"
@@ -144,7 +145,7 @@ func action(line string) {
 			valid = true
 		case _HEAD:
 			valid = true
-		case _POST, _PUSH, _PATCH, _DELETE:
+		case _POST, _PUSH, _PUT, _PATCH, _DELETE:
 			valid = true
 			if !_gitRepos[domain] && !_allowPost[domain] {
 				debugLogChan <- _nopost + line

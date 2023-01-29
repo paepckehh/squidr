@@ -32,13 +32,15 @@ func servReports() {
 	_ = os.WriteFile(_servBase+_slashfwd+_defaultErrFile, []byte(_defaultErrHtml), 0o660)
 	reports := http.FileServer(httpFS{http.Dir(_servBase)})
 	http.Handle("/", reports)
-	panic(http.ListenAndServeTLS("127.0.0.80:9292", "/etc/app/squid/proxylocal.pem", "/etc/app/squid/proxylocal.key", nil))
+	// silently fail if interface is already in use and covered by another instance
+	_ = http.ListenAndServeTLS("127.0.0.80:9292", "/etc/app/squid/proxylocal.pem", "/etc/app/squid/proxylocal.key", nil)
 }
 
 func servPreview() {
 	preview := http.FileServer(httpFS{http.Dir(_servPreview)})
 	http.Handle("/www", preview)
-	panic(http.ListenAndServeTLS("preview.paepcke.pnoc:4443", "/etc/app/squid/preview.pem", "/etc/app/squid/preview.key", nil))
+	// silently fail if interface is already in use and covered by another instance
+	_ = http.ListenAndServeTLS("preview.paepcke.pnoc:4443", "/etc/app/squid/preview.pem", "/etc/app/squid/preview.key", nil)
 }
 
 func writeReport(data []byte, category string) error {
