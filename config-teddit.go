@@ -1,7 +1,7 @@
 package squidr
 
 // var _teddit contains a generated list of all currently active teddit instances
-// *** DO NOT EDIT *** generated on 2022-12-24 via paepcke.de/squidr/.scripts/generate-teddit.sh
+// *** DO NOT EDIT *** generated on 2023-01-29 via paepcke.de/squidr/.scripts/generate-teddit.sh
 // source: https://codeberg.org/teddit/teddit
 var _teddit = []string{
 	"teddit.adminforge.de",

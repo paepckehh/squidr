@@ -1,7 +1,7 @@
 package squidr
 
 // var _searx contains a generated list of all currently active searx instances
-// *** DO NOT EDIT *** generated on 2022-12-24 via paepcke.de/squidr/.scripts/generate-searx.sh
+// *** DO NOT EDIT *** generated on 2023-01-29 via paepcke.de/squidr/.scripts/generate-searx.sh
 // source: https://searx.space/data/instances.json
 var _searx = []string{
 	"search.0relay.com",

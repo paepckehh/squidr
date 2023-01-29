@@ -41,6 +41,8 @@ const (
 	_PUSH    = "PUSH"
 	_PATCH   = "PATCH"
 	_DELETE  = "DELETE"
+	_OPTIONS = "OPTIONS"
+	_TRACE   = "TRACE"
 )
 
 type rMap struct {
@@ -145,9 +147,9 @@ func action(line string) {
 			valid = true
 		case _HEAD:
 			valid = true
-		case _POST, _PUSH, _PUT, _PATCH, _DELETE:
+		case _POST, _PUSH, _PUT, _PATCH, _DELETE, _OPTIONS, _TRACE:
 			valid = true
-			if !_gitRepos[domain] && !_allowPost[domain] {
+			if !_gitRepos[domain] && !_allowPost[domain] && !_mapsearx[domain] {
 				debugLogChan <- _nopost + line
 				outChan <- s[0] + _sep + _err
 				return

@@ -1,7 +1,7 @@
 package squidr
 
 // var _nitter contains a generated list of all currently active nitter instances
-// *** DO NOT EDIT *** generated on 2022-12-24 via paepcke.de/squidr/.scripts/generate-nitter.sh
+// *** DO NOT EDIT *** generated on 2023-01-29 via paepcke.de/squidr/.scripts/generate-nitter.sh
 // source: https://github.com/zedeus/nitter.wiki
 var _nitter = []string{
 	"nitter.1d4.us",
@@ -31,12 +31,15 @@ var _nitter = []string{
 	"nitter.esmailelbob.xyz",
 	"nitter.ethibox.fr",
 	"nitter.eu.org",
+	"nitter.eu.projectsegfau.lt",
 	"nitter.evil.site",
 	"nitter.fdn.fr",
 	"nitter.fly.dev",
 	"nitter.foss.wtf",
 	"nitter.fprivacy.com",
+	"nitter.freedit.eu",
 	"nitter.garudalinux.org",
+	"nitter.girlboss.ceo",
 	"nitter.govt.land",
 	"nitter.grimneko.de",
 	"nitter.himiko.cloud",
@@ -51,6 +54,7 @@ var _nitter = []string{
 	"nitter.koyu.space",
 	"nitter.kylrth.com",
 	"nitter.lacontrevoie.fr",
+	"nitter.librenode.org",
 	"nitter.lunar.icu",
 	"nitter.manasiwibi.com",
 	"nitter.marcopisco.com",
@@ -78,6 +82,7 @@ var _nitter = []string{
 	"nitter.pw",
 	"nitter.qwik.space",
 	"nitter.rawbit.ninja",
+	"nitter.riverside.rocks",
 	"nitter.selfhostable.net",
 	"nitter.sethforprivacy.com",
 	"nitter.silkky.cloud",
