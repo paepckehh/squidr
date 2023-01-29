@@ -14,4 +14,6 @@ var _allowPost = map[string]bool{
 	"mail.proton.me":         true,
 	"news.ycombinator.com":   true,
 	"infosec.exchange":       true,
+	"bugs.freebsd.org":       true,
+	"reviews.freebsd.org:":   true,
 }
