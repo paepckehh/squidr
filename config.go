@@ -18,8 +18,6 @@ const (
 var (
 	blocklist = []string{}
 
-	allowPOST = _gitrepos
-
 	rewrite = map[string][]string{
 		"paepcke.de": {"git.paepcke.de"},
 	}

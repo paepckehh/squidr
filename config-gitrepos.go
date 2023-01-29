@@ -1,7 +1,7 @@
 package squidr
 
-// var _gitrepos contains a generated list of all currently allowed git repo targets
-var _gitrepos = map[string]bool{
+// var _gitRepos contains a generated list of all currently allowed git repo targets
+var _gitRepos = map[string]bool{
 	"4d63.com":                   true,
 	"ariga.io":                   true,
 	"bazil.org":                  true,

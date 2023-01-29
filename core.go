@@ -37,6 +37,9 @@ const (
 	_GET     = "GET"
 	_HEAD    = "HEAD"
 	_POST    = "POST"
+	_PUSH    = "PUSH"
+	_PATCH   = "PATCH"
+	_DELETE  = "DELETE"
 )
 
 type rMap struct {
@@ -141,13 +144,13 @@ func action(line string) {
 			valid = true
 		case _HEAD:
 			valid = true
-		case _POST:
-			if allowPOST[domain] {
-				valid = true
-				break
+		case _POST, _PUSH, _PATCH, _DELETE:
+			valid = true
+			if !_gitRepos[domain] && !_allowPost[domain] {
+				debugLogChan <- _nopost + line
+				outChan <- s[0] + _sep + _err
+				return
 			}
-			debugLogChan <- _nopost + line
-			outChan <- s[0] + _sep + _err
 		}
 	}
 	if !valid {
