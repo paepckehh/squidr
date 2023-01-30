@@ -1,6 +1,7 @@
 package squidr
 
 import (
+	"net/http"
 	"strconv"
 	"strings"
 	"sync"
@@ -98,7 +99,7 @@ func action(line string) {
 		debugLogChan <- _broken + line
 		outChan <- s[0] + _sep + _err
 		return
-	case s[4] == _CONNECT:
+	case s[4] == http.MethodConnect:
 		outChan <- s[0] + _sep + _ok
 		return
 	case len(s[1]) < 10:
@@ -142,13 +143,10 @@ func action(line string) {
 			return
 		}
 	case s[1][:8] == _https:
+		valid = true
 		switch s[4] {
-		case _GET:
-			valid = true
-		case _HEAD:
-			valid = true
-		case _POST, _PUSH, _PUT, _PATCH, _DELETE, _OPTIONS, _TRACE:
-			valid = true
+		case http.MethodGet, http.MethodHead:
+		case http.MethodPost, http.MethodPut, http.MethodPatch, http.MethodDelete, http.MethodOptions:
 			if !_gitRepos[domain] && !_allowPost[domain] && !_mapsearx[domain] {
 				debugLogChan <- _nopost + line
 				outChan <- s[0] + _sep + _err
