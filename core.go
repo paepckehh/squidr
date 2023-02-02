@@ -5,11 +5,14 @@ import (
 	"strconv"
 	"strings"
 	"sync"
+
+	"paepcke.de/dnscache"
 )
 
 const (
 	_ok           = "ERR"
 	_err          = "OK rewrite-url=\"https://127.0.0.80:9292/err.html"
+	_dnserr       = "OK rewrite-url=\"https://127.0.0.80:9292/dns.html"
 	_errRoot      = "OK rewrite-url=\"https://127.0.0.80:9292/"
 	_errTLS       = "OK rewrite-url=\"https://127.0.0.80:9292/tls/"
 	_errDNS       = "OK rewrite-url=\"https://127.0.0.80:9292/dns/"
@@ -100,6 +103,11 @@ func action(line string) {
 		outChan <- s[0] + _sep + _err
 		return
 	case s[4] == http.MethodConnect:
+		if _, err := dnscache.LookupHost(domain); err != nil { // fail early, fail cheap
+			debugLogChan <- _dnsterminated + _sep + domain + _sep + line
+			outChan <- s[0] + _sep + _dnserr
+			return
+		}
 		outChan <- s[0] + _sep + _ok
 		return
 	case len(s[1]) < 10:
@@ -143,6 +151,11 @@ func action(line string) {
 			return
 		}
 	case s[1][:8] == _https:
+		if _, err := dnscache.LookupHost(domain); err != nil { // fail early, fail cheap
+			debugLogChan <- _dnsterminated + _sep + domain + _sep + line
+			outChan <- s[0] + _sep + _dnserr
+			return
+		}
 		valid = true
 		switch s[4] {
 		case http.MethodGet, http.MethodHead:

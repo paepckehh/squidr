@@ -23,6 +23,7 @@ const (
 	_connectExit   = "[method:connect] [exit] "
 	_nopost        = "[method:post] [acl:no] "
 	_terminated    = "[terminated] "
+	_dnsterminated = "[dns] [fail] "
 	_tlsterminated = "[tls] [fail] "
 	_errcode       = " error code : "
 	_space         = " : "

@@ -17,6 +17,8 @@ const (
 	_servSSS        = _servBase + "/sss"
 	_defaultErrFile = "err.html"
 	_defaultErrHtml = "<HTML><H1>SQUIDR DEFAULT ERROR</H1></HTML>"
+	_dnsErrFile     = "dns.html"
+	_dnsErrHtml     = "<HTML><H1>SQUIDR DNS LOOKUP ERROR</H1></HTML>"
 )
 
 type httpFS struct {
@@ -29,6 +31,7 @@ func servReports() {
 	_ = os.MkdirAll(_servDNS, 0o770)
 	_ = os.MkdirAll(_servTLS, 0o770)
 	_ = os.MkdirAll(_servSSS, 0o770)
+	_ = os.WriteFile(_servBase+_slashfwd+_dnsErrFile, []byte(_dnsErrHtml), 0o660)
 	_ = os.WriteFile(_servBase+_slashfwd+_defaultErrFile, []byte(_defaultErrHtml), 0o660)
 	reports := http.FileServer(httpFS{http.Dir(_servBase)})
 	http.Handle("/", reports)
