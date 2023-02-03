@@ -20,4 +20,5 @@ var _allowPost = map[string]bool{
 	"reviews.freebsd.org":          true,
 	"www.hvv.de":                   true,
 	"shop.hvv.de":                  true,
+	"www.lbv-termine.de":           true,
 }
