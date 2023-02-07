@@ -3,7 +3,6 @@ package squidr
 // example config
 // var _allowPost contains a generated list of all currently allowed git repo targets
 var _allowPost = map[string]bool{
-	"lite.duckduckgo.com":          true,
 	"api-iam.intercom.io":          true,
 	"sso.arbeitsagentur.de":        true,
 	"www.arbeitsagentur.de":        true,
@@ -21,4 +20,9 @@ var _allowPost = map[string]bool{
 	"www.hvv.de":                   true,
 	"shop.hvv.de":                  true,
 	"www.lbv-termine.de":           true,
+	"www.dell.com":                 true,
+	"api.funcaptcha.com":           true,
+	"duckduckgo.com":               true,
+	"lite.duckduckgo.com":          true,
+	"html.duckduckgo.com":          true,
 }

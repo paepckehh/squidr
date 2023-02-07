@@ -28,7 +28,7 @@ var (
 	}
 
 	redirect301 = map[string][]string{
-		"whooglesearch.ml": {"google.com", "www.google.com", "search.google.com"},
+		"whooglesearch.ml": {"search.google.com"},
 	}
 
 	redirect301randomMap = map[string][]string{
