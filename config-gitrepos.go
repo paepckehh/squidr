@@ -54,4 +54,5 @@ var _gitRepos = map[string]bool{
 	"strk.kbt.io":                true,
 	"xorm.io":                    true,
 	"git.tukaani.org":            true,
+	"git.lekensteyn.nl":          true,
 }

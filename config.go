@@ -9,10 +9,11 @@ const (
 	_blockDomain                   = "access.deny"
 	_blockPage                     = ""
 	_doNotValidateRandomMapTargets = false
-	_uaApp                         = "Mozilla/5.0 (X11; CrOS aarch64 13597.84.0) "
-	_uaFramework                   = "AppleWebKit/537.36 (KHTML, like Gecko) "
-	_uaOS                          = "Chrome/104.0.5112.105 Safari/537.36"
-	_userAgent                     = _uaApp + _uaFramework + _uaOS
+	//	_uaApp                         = "Mozilla/5.0 (X11; CrOS aarch64 13597.84.0) "
+	//	_uaFramework                   = "AppleWebKit/537.36 (KHTML, like Gecko) "
+	//	_uaOS                          = "Chrome/104.0.5112.105 Safari/537.36"
+	//	_userAgent                     = _uaApp + _uaFramework + _uaOS
+	_userAgent = "Mozilla/5.0 (X11; Linux x86_64; rv:106.0) Gecko/20100101 Firefox/106.0"
 )
 
 var (

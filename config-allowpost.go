@@ -28,4 +28,12 @@ var _allowPost = map[string]bool{
 	"duckduckgo.com":               true,
 	"lite.duckduckgo.com":          true,
 	"html.duckduckgo.com":          true,
+	"challenges.cloudflare.com":    true,
+	"api.openai.com":               true,
+	"beta.openai.com":              true,
+	"auth0.openai.com":             true,
+	"platform.openai.com":          true,
+	"chat.openai.com":              true,
+	"accounts.google.com":          true,
+	"mail.google.com":              true,
 }
