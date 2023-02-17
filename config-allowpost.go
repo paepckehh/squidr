@@ -36,4 +36,5 @@ var _allowPost = map[string]bool{
 	"chat.openai.com":              true,
 	"accounts.google.com":          true,
 	"mail.google.com":              true,
+	"pkg.go.dev":                   true,
 }
