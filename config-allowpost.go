@@ -37,4 +37,5 @@ var _allowPost = map[string]bool{
 	"accounts.google.com":          true,
 	"mail.google.com":              true,
 	"pkg.go.dev":                   true,
+	"www.berrybase.de":             true,
 }
