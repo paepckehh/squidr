@@ -39,4 +39,7 @@ var _allowPost = map[string]bool{
 	"pkg.go.dev":                   true,
 	"www.reichelt.de":              true,
 	"www.berrybase.de":             true,
+	"meta.sr.ht":                   true,
+	"gitlab-api.arkoselabs.com":    true,
+	"www.recaptcha.net":            true,
 }
