@@ -30,6 +30,7 @@ var _allowPost = map[string]bool{
 	"html.duckduckgo.com":          true,
 	"challenges.cloudflare.com":    true,
 	"api.openai.com":               true,
+	"store.google.com":             true,
 	"beta.openai.com":              true,
 	"auth0.openai.com":             true,
 	"platform.openai.com":          true,
