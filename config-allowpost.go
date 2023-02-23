@@ -33,6 +33,7 @@ var _allowPost = map[string]bool{
 	"store.google.com":             true,
 	"beta.openai.com":              true,
 	"auth0.openai.com":             true,
+	"labs.openai.com":              true,
 	"platform.openai.com":          true,
 	"chat.openai.com":              true,
 	"accounts.google.com":          true,
@@ -43,4 +44,5 @@ var _allowPost = map[string]bool{
 	"meta.sr.ht":                   true,
 	"gitlab-api.arkoselabs.com":    true,
 	"www.recaptcha.net":            true,
+	"tineye.com":                   true,
 }
