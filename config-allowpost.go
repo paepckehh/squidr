@@ -45,4 +45,7 @@ var _allowPost = map[string]bool{
 	"gitlab-api.arkoselabs.com":    true,
 	"www.recaptcha.net":            true,
 	"tineye.com":                   true,
+	"compresspng.com":              true,
+	"tinypng.com":                  true,
+	"uploads.github.com":           true,
 }
