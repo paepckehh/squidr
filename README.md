@@ -1,7 +1,7 @@
 # OVERVIEW
 [![Go Reference](https://pkg.go.dev/badge/paepcke.de/squidr.svg)](https://pkg.go.dev/paepcke.de/squidr) [![Go Report Card](https://goreportcard.com/badge/paepcke.de/squidr)](https://goreportcard.com/report/paepcke.de/squidr) [![Go Build](https://github.com/paepckehh/squidr/actions/workflows/golang.yml/badge.svg)](https://github.com/paepckehh/squidr/actions/workflows/golang.yml)
 
-[paepche.de/squidr](https://paepcke.de/squidr/)
+[paepcke.de/squidr](https://paepcke.de/squidr/)
 
 Squid Cache Proxy [squid-cache.org](https://squid-cache.org/) Infosec Companion! 
 
