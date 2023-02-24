@@ -4,9 +4,9 @@ go 1.20
 
 require (
 	mvdan.cc/xurls/v2 v2.4.0
-	paepcke.de/dnscache v0.1.8
+	paepcke.de/dnscache v0.1.9
 	paepcke.de/dnsinfo v0.1.28
-	paepcke.de/dnsresolver v0.1.8
+	paepcke.de/dnsresolver v0.1.9
 	paepcke.de/reportstyle v0.1.11
 	paepcke.de/tlsinfo v0.1.21
 )
