@@ -5,14 +5,13 @@
 
 Squid Cache Proxy [squid-cache.org](https://squid-cache.org/) Infosec Companion! 
 
-Protect your Corporate / Privacy Squid (MiTM) Proxy!
+Protect your corporate privacy with a Squid MiTM (Man-in-the-Middle) proxy!
 
-Evaluates and analyzes FIRST-IN-LINE every connect attempt via a customized
-TLS stack for upstream problems (TLS trace, fingerprints, presented trustchains)
-before the squid/openssl/os stack is allowed to fetch.
-
-Automatically documents full tls handshake traces and presented certificates,
-dns states, presented target urls and many more into immutable incident snapshots. 
+Evaluate and analyze every connection attempt with a customized TLS stack for
+upstream problems (TLS trace, fingerprints, presented trust chains) before the 
+Squid/OpenSSL/OS stack is allowed to fetch. Automatically document full TLS 
+handshake traces and presented certificates, DNS states, presented target URLs,
+and more into immutable incident snapshots. 
 
 ## Adds this new additional http api endpoints to squid
 
