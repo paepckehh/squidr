@@ -36,6 +36,7 @@ var _allowPost = map[string]bool{
 	"tineye.com":          true,
 	"compresspng.com":     true,
 	"tinypng.com":         true,
+	"mxtoolbox.com":       true,
 	// openai api
 	"api.openai.com":      true,
 	"ogs.google.com":      true,
@@ -53,7 +54,7 @@ var _allowPost = map[string]bool{
 	"web.arbeitsagentur.de":        true,
 	"rest.arbeitsagentur.de":       true,
 	"web.intern.arbeitsagentur.de": true,
-	// commerce
+	// e-commerce
 	"www.dell.com":     true,
 	"www.reichelt.de":  true,
 	"www.berrybase.de": true,
@@ -65,4 +66,7 @@ var _allowPost = map[string]bool{
 	"accounts.bahn.de":      true,
 	"fahrkarten.bahn.de":    true,
 	"reiseauskunft.bahn.de": true,
+	// mobile provider (eu)
+	"login.o2online.de": true,
+	"www.o2online.de":   true,
 }
