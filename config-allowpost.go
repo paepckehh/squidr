@@ -66,7 +66,9 @@ var _allowPost = map[string]bool{
 	"accounts.bahn.de":      true,
 	"fahrkarten.bahn.de":    true,
 	"reiseauskunft.bahn.de": true,
-	// mobile provider (eu)
+	// IoT api
+	"api.kaiterra.com": true,
+	// telco provider (eu)
 	"login.o2online.de": true,
 	"www.o2online.de":   true,
 }
