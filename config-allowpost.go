@@ -15,6 +15,7 @@ var _allowPost = map[string]bool{
 	"accounts.google.com":   true,
 	"store.google.com":      true,
 	"mail.google.com":       true,
+	"mail.tutanota.com":     true,
 	// social
 	"news.ycombinator.com": true,
 	"infosec.exchange":     true,
