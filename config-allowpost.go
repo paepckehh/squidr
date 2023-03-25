@@ -56,7 +56,8 @@ var _allowPost = map[string]bool{
 	"web.arbeitsagentur.de":        true,
 	"rest.arbeitsagentur.de":       true,
 	"web.intern.arbeitsagentur.de": true,
-	// e-commerce
+	// e-commerce & IT
+	"support.hp.com":   true,
 	"www.dell.com":     true,
 	"www.reichelt.de":  true,
 	"www.berrybase.de": true,
