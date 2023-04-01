@@ -103,11 +103,11 @@ func action(line string) {
 		outChan <- s[0] + _sep + _err
 		return
 	case s[4] == http.MethodConnect:
-		if _, err := dnscache.LookupHost(domain); err != nil { // fail early, fail cheap
-			debugLogChan <- _dnsterminated + _sep + domain + _sep + line
-			outChan <- s[0] + _sep + _dnserr
-			return
-		}
+		// 		if _, err := dnscache.LookupHost(domain); err != nil { // fail early, fail cheap
+		// 			debugLogChan <- _dnsterminated + _sep + domain + _sep + line
+		// 			outChan <- s[0] + _sep + _dnserr
+		// 			return
+		// 		}
 		outChan <- s[0] + _sep + _ok
 		return
 	case len(s[1]) < 10:
