@@ -3,7 +3,7 @@ module paepcke.de/squidr
 go 1.20
 
 require (
-	mvdan.cc/xurls/v2 v2.4.0
+	mvdan.cc/xurls/v2 v2.5.0
 	paepcke.de/dnscache v0.1.12
 	paepcke.de/dnsinfo v0.1.31
 	paepcke.de/dnsresolver v0.1.12
@@ -16,7 +16,7 @@ require (
 	github.com/google/certificate-transparency-go v1.1.4 // indirect
 	github.com/miekg/dns v1.1.52 // indirect
 	golang.org/x/crypto v0.8.0 // indirect
-	golang.org/x/mod v0.8.0 // indirect
+	golang.org/x/mod v0.10.0 // indirect
 	golang.org/x/net v0.9.0 // indirect
 	golang.org/x/sys v0.7.0 // indirect
 	golang.org/x/text v0.9.0 // indirect
