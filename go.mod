@@ -8,7 +8,7 @@ require (
 	paepcke.de/dnsinfo v0.1.37
 	paepcke.de/dnsresolver v0.1.18
 	paepcke.de/reportstyle v0.1.20
-	paepcke.de/tlsinfo v0.1.29
+	paepcke.de/tlsinfo v0.1.30
 )
 
 require (
@@ -22,5 +22,5 @@ require (
 	golang.org/x/text v0.9.0 // indirect
 	golang.org/x/tools v0.8.0 // indirect
 	k8s.io/klog/v2 v2.100.1 // indirect
-	paepcke.de/certinfo v0.1.27 // indirect
+	paepcke.de/certinfo v0.1.30 // indirect
 )
