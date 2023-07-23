@@ -6,9 +6,9 @@ require (
 	mvdan.cc/xurls/v2 v2.5.0
 	paepcke.de/dnscache v0.1.20
 	paepcke.de/dnsinfo v0.1.39
-	paepcke.de/dnsresolver v0.1.19
+	paepcke.de/dnsresolver v0.1.20
 	paepcke.de/reportstyle v0.1.22
-	paepcke.de/tlsinfo v0.1.31
+	paepcke.de/tlsinfo v0.1.32
 )
 
 require (
@@ -22,5 +22,5 @@ require (
 	golang.org/x/text v0.11.0 // indirect
 	golang.org/x/tools v0.8.0 // indirect
 	k8s.io/klog/v2 v2.100.1 // indirect
-	paepcke.de/certinfo v0.1.31 // indirect
+	paepcke.de/certinfo v0.1.33 // indirect
 )
