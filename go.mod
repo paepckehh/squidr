@@ -1,4 +1,4 @@
-module paepcke.de/squidr
+module paepcke.de/hq
 
 go 1.22.2
 
@@ -8,6 +8,7 @@ require (
 	paepcke.de/dnsinfo v0.1.39
 	paepcke.de/dnsresolver v0.1.20
 	paepcke.de/reportstyle v0.1.22
+	paepcke.de/squidr v0.1.35
 	paepcke.de/tlsinfo v0.1.32
 )
 
