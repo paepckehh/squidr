@@ -33,7 +33,5 @@ paepcke.de/dnsresolver v0.1.20 h1:wyWwo1JZHYosORBtjhSConMjGG5tdtIzyqLFYww3x14=
 paepcke.de/dnsresolver v0.1.20/go.mod h1:r4FR3rC8aHimvMtROZcrDr0lrzzseVRU+eLV+A1YdJo=
 paepcke.de/reportstyle v0.1.22 h1:IXkBRl8LJg1d8aOrpAJjy3GR38AsHGsYFHZMxRPvcRA=
 paepcke.de/reportstyle v0.1.22/go.mod h1:n8RawMbFocJ+xICuqY6RAsGgEvOrgAeSXA/Myu5ecPE=
-paepcke.de/squidr v0.1.35 h1:2vuuNHl6pSxFnADfSdARcoYu214JIRfBmCJVuPuZnD4=
-paepcke.de/squidr v0.1.35/go.mod h1:ure3SSmy7OGTQVy+/DfNuHJunbPMiC/iLrc2SnmJxDI=
 paepcke.de/tlsinfo v0.1.32 h1:lTApM0i1jvG2WFSgEiy77uO14MXtkdKjqcJYuWQ98ow=
 paepcke.de/tlsinfo v0.1.32/go.mod h1:3PBxFH0OlAbpXCY+plrOnLIqxiwMTyTI/jjOimfNYGw=
