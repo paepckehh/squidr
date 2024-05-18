@@ -7,7 +7,7 @@ require (
 	paepcke.de/dnscache v0.1.22
 	paepcke.de/dnsinfo v0.1.41
 	paepcke.de/dnsresolver v0.1.22
-	paepcke.de/reportstyle v0.1.22
+	paepcke.de/reportstyle v0.1.24
 	paepcke.de/tlsinfo v0.1.34
 )
 
