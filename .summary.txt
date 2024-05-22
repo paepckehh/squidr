@@ -1,0 +1,22 @@
+─────────────────────────────────────────────────────────────────────────────────────────────────────────────
+Language                              Files     Lines   Blanks  Comments     Code Complexity Complexity/Lines
+─────────────────────────────────────────────────────────────────────────────────────────────────────────────
+Go                                       23      1685      119        87     1479        178           262.33
+Shell                                     6       115        0        21       94          9            54.06
+Markdown                                  5       132       45         0       87          0             0.00
+YAML                                      3        69        0         0       69          0             0.00
+gitignore                                 2        27        0         0       27          0             0.00
+─────────────────────────────────────────────────────────────────────────────────────────────────────────────
+Total                                    39      2028      164       108     1756        187           316.38
+─────────────────────────────────────────────────────────────────────────────────────────────────────────────
+Total Physical Source Lines of Code (SLOC)                     = 1,756
+Development Effort Estimate, Person-Years (Person-Months)      = 0.36 (4.33)
+ (Basic COCOMO model, Person-Months = 2.40*(KSLOC**1.05)*1.00)
+Schedule Estimate, Years (Months)                              = 0.36 (4.37)
+ (Basic COCOMO model, Months = 2.50*(person-months**0.38))
+Estimated Average Number of Developers (Effort/Schedule)       = 0.99
+Total Estimated Cost to Develop                                = $48,792
+ (average salary = $56,286/year, overhead = 2.40)
+Processed 56236 bytes, 0.056 megabytes (SI)
+─────────────────────────────────────────────────────────────────────────────────────────────────────────────
+
