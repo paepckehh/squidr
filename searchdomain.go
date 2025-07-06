@@ -2,7 +2,6 @@ package squidr
 
 import (
 	"math/rand"
-	"time"
 )
 
 func searchDomain(domain string) search {
@@ -43,7 +42,7 @@ func searchDomain(domain string) search {
 				if l < 1 {
 					return search{domain, false, false, false, false} // not map targets
 				}
-				rand.Seed(time.Now().UnixNano())
+				// rand.Seed(time.Now().UnixNano())
 				idx := rand.Intn(l - 1)
 				if targetMap.doNotValidate {
 					return search{targetMap.targets[idx], false, false, true, true}

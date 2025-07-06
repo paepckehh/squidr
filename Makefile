@@ -1,19 +1,14 @@
-# Installation target defaults to /usr/local/bin if not defined! 
-# Please set DESTDIR or PREFIX to modify!
+PROJECT=$(shell basename $(CURDIR))
 
-all: 
-	sh certstore/update.sh
-	sh .build.sh
+all:
+	make -C cmd/$(PROJECT) all
 
-mini:
-	sh certstore/update.sh
-	sh .build.sh
+deps: 
+	rm go.mod go.sum
+	go mod init paepcke.de/$(PROJECT)
+	go mod tidy -v	
 
-test:
-	if [ -e APP/test/test.sh ];then sh APP/test/test.sh ; fi
-
-install:
-
-clean: 
-	rm certstore/*.pem
-	touch certstore/rootCA.pem certstore/external_trust.pem 
+check: 
+	gofmt -w -s .
+	staticcheck
+	make -C cmd/$(PROJECT) check
