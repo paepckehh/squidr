@@ -14,7 +14,7 @@ require (
 require (
 	github.com/google/certificate-transparency-go v1.3.2 // indirect
 	github.com/miekg/dns v1.1.72 // indirect
-	golang.org/x/crypto v0.51.0 // indirect
+	golang.org/x/crypto v0.52.0 // indirect
 	golang.org/x/mod v0.31.0 // indirect
 	golang.org/x/net v0.55.0 // indirect
 	golang.org/x/sync v0.19.0 // indirect
